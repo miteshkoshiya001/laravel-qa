@@ -11286,3 +11286,33 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.counters {
+  margin-right: 30px;
+  font-size: 10px;
+  text-align: center;
+}
+.counters strong {
+  display: block;
+  font-size: 2em;
+}
+.counters .vote, .counters .answer {
+  width: 60px;
+  height: 60px;
+}
+.counters .status {
+  padding: 5px;
+}
+.counters .status.unanswered {
+  border: none;
+}
+.counters .status.answered {
+  border: 1px solid #5fbb7e;
+  color: #5fbb7e;
+}
+.counters .status.answered-accepted {
+  background: #5fbb7e;
+  color: #fff;
+}
+.counters .view {
+  margin-top: 10px;
+}
